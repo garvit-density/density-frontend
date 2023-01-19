@@ -1,0 +1,106 @@
+// @import "../../../assets/styles/base.scss";
+
+// .navbar-menu-1 {
+//     color: #51A2E1;
+//   }
+
+
+//   .desity-navbar{
+//     display: flex;
+//     flex-direction: column;
+//     // border: 1px solid #6d6a6a;
+//   }
+
+//   .nav-links {
+//     display: inline-block;
+//     height: 10px;
+//     //background-color:rgb(0, 0, 0);/*will change background-color of element */
+//     color: rgb(255, 255, 255); /*will change color of text within the element */
+//     }
+
+//     .nav-links:hover {
+//     //background-color:rgb(0, 0, 0); /*will change background-color of element on hover */
+//     color: #E2ff6f; /*will change color of text within the element on hover */
+//     }
+
+// .density {
+//   // &-appbar {
+//   //   box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.05);
+//   // }
+
+//   &-navbar {
+//     color: transparent;
+//   }
+
+//   &-toolbar {
+//     background-color: #1F1F24;
+//     display: flex;
+//     min-height: 48px !important;
+//     border-bottom: 1px solid #484852;
+//   }
+//   &-relative {
+//     position: relative;
+//   }
+//   &-manu_ul {
+//     @include centre-align();
+//     @include mediaQuery(640px) {
+//       display: none;
+//     }
+//     &.active_menu {
+//       display: block;
+//       background: $primary-background;
+//       position: absolute;
+//       top: 100%;
+//       width: 150px;
+//       border: 1px solid $primary-border-grey;
+//       border-radius: 5px;
+//       .MuiTypography-root {
+//         padding: 10px;
+//       }
+//     }
+//   }
+//   &-menu-toggle {
+//     display: none;
+//     @include mediaQuery(640px) {
+//       display: inline-block;
+//     }
+//   }
+
+//   &-toolbar-text {
+//     padding-left: 7px;
+//     padding-right: 7px;
+//     padding-bottom: 5px;
+//     padding-top: 5px;
+//     cursor: pointer !important;
+
+//     @extend .font-bold;
+//     &.MuiTypography-root {
+//       margin: 0 25px;
+//       @include mediaQuery(768px) {
+//         @include FontStyle(16, 20);
+//         margin: 0 10px;
+//       }
+//     }
+//   }
+//   &-toolbar-text-left {
+//     @extend .font-bold;
+//     &.MuiTypography-root {
+//       margin: 0 5px;
+//       @include mediaQuery(768px) {
+//         @include FontStyle(16, 20);
+//         margin: 0 10px;
+//       }
+//     }
+//   }
+//   &-toolbar-icons {
+//     margin-left: auto;
+//     &.MuiButtonBase-root {
+//       color: $header-text-color;
+//     }
+//   }
+//   &-toolbar-icon {
+//     &.MuiButtonBase-root {
+//       color: $header-text-color;
+//     }
+//   }
+// }

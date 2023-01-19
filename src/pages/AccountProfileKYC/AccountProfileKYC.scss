@@ -1,0 +1,30 @@
+@import  '../../assets/styles/mixins.scss';
+
+.TabList {
+    background: rgba(79, 79, 79, 0.15);
+    border-radius: 6px;
+    min-height: auto !important;
+    height: auto;
+    overflow: auto !important;
+    width: fit-content;
+
+    .Tab {
+        @include FontStyle(14, 18, 400);
+        text-transform: capitalize;
+        color: #4F4F4F;
+        padding: 6px 23px;
+        min-height: auto;
+        border: 1px solid transparent;
+        border-radius: 6px; 
+        
+        &.Mui-selected {
+            border-color: #666673;
+            color: #ffffff;
+            background: #666673;
+        }
+    }
+
+    .MuiTabs-indicator {
+        display: none !important;
+    }
+}

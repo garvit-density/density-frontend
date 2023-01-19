@@ -1,0 +1,8 @@
+[submodule "src/frontend-BL"]
+	path = src/frontend-BL
+	url = https://github.com/density-exchange/frontend-BL.git
+	branch = master
+[submodule "src/frontend-api-service"]
+	path = src/frontend-api-service
+	url = https://github.com/density-exchange/frontend-api-service
+	branch=master

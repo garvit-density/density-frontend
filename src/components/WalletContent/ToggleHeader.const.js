@@ -1,0 +1,22 @@
+export const TOGGLEHEADER_CONSTANTS = {
+  DEPOSIT_INR: "Deposit INR",
+  WITHDRAW_INR: "Withdraw INR",
+  BUY_USDT: "Buy USDT",
+  SELL_USDT: "Sell USDT",
+  REFRESH: "Refresh",
+  COMPLETE_KYC: "Complete KYC",
+  VERIFY_BANK_ACCOUNT: "Verify Bank Account",
+  INR_WALLET: "INR Wallet",
+  USDT_WALLET: "USDT Wallet",
+  KYC_VERIFIED: "verified",
+  KYC_PENDING: "pending",
+  KYC_FAILED: "failed",
+  KYC_NOT_VERIFIED: "not_verified",
+  FIAT_WALLET: "FIAT",
+  FUTURES_WALLET: "FUTURES",
+  PENNYDROP_VERIFIED: "verified",
+  PENNYDROP_FAILED: "failed",
+  PENNYDROP_NOT_VERIFIED: "not_verified",
+  PENNYDROP_PENDING: "pending",
+  KYC_BANK_VERIFICATION_NOT_COMPLETE: "Complete KYC and Verify Bank Account to Start Trading"
+};

@@ -1,0 +1,70 @@
+@import "../../../../assets/styles/colors.scss";
+@import "../../../../assets/styles/mixins.scss";
+
+.profileInfo{
+  .profileInfoInner {
+    max-width: 578px;
+    width: 95%;
+    padding: 64px;
+    border-radius: 12px;
+    margin: 0 auto;
+    border: 1px solid $primary-border-grey;
+    .profileInfoTitle {
+      color: $color-primary;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    @include mediaQuery(767px) {
+      padding: 20px;
+    }
+    .visibilityIcon {
+      svg > * {
+        fill: $color-primary;
+      }
+    }
+    .primaryLink{
+      @include FontStyle(12, 16, 400);
+    }
+    .rememberText {
+      .MuiFormControlLabel-label{
+        @include FontStyle(12, 16, 400);
+      }
+    }
+    .Avatar{
+      width: 80px;
+      height: 80px;
+      background-color: $primary-background;
+      @include FontStyle(25, 30, 400);
+      border:1px solid $borderColor;
+    }
+    .stack{
+    justify-content: center;
+    padding-bottom: 32px;
+    }
+   .savechange{
+    display: flex;
+    justify-content: space-between;
+    // @include FontStyle(14, 18, 700);
+    color: $color-primary;
+    }
+    .verifiedLinks{
+      p{
+        @include FontStyle(14, 18, 500);
+        margin-bottom: 5px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .LoginBtn {
+    width: 100%;
+    padding: 13.5px;
+    border: 1px solid $borderColor;
+    border-radius: 5px;
+    @include FontStyle(14, 18, 700);
+    img {
+      margin-right: 10px;
+    }
+  }
+}

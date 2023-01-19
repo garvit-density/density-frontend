@@ -1,0 +1,50 @@
+@import "../../assets/styles/colors.scss";
+@import "../../assets/styles/mixins.scss";
+
+.signupWrap{
+    margin-top: 40px;
+  .signupWrapInner {
+    max-width: 578px;
+    width: 95%;
+    padding: 40px 62px;
+    border-radius: 12px;
+    margin: 0 auto;
+    border: 1px solid $primary-border-grey;
+    .signupTitle {
+      color: $color-primary;
+      text-align: center;
+    }
+    .backButton {
+      color: $color-primary;
+      text-align: right;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+    @include mediaQuery(767px) {
+      padding: 20px;
+    }
+    .visibilityIcon {
+      svg > * {
+        fill: $color-primary;
+      }
+    }
+    .primaryLink{
+      @include FontStyle(12, 16, 400);
+    }
+    .rememberText {
+      .MuiFormControlLabel-label{
+        @include FontStyle(12, 16, 400);
+      }
+    }
+  }
+  .LoginBtn {
+    width: 100%;
+    padding: 13.5px;
+    border: 1px solid $borderColor;
+    border-radius: 5px;
+    @include FontStyle(14, 18, 700);
+    img {
+      margin-right: 10px;
+    }
+  }
+}

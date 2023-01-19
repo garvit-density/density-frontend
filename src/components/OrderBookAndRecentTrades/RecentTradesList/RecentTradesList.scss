@@ -1,0 +1,70 @@
+* {  
+    font-family: "Overpass", "sans-serif";
+}
+
+#recentTradesListContainer {
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#recentTradesListContainer p {
+    font-size: 10px;
+    border-radius: 5px;
+}
+#recentTradesListContainer .MuiGrid-root {
+    padding-bottom: 0px;
+}
+
+.tradeLabel, .tradeValue {
+    display: flex;
+    justify-content: space-between;
+    margin-left:0px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.contractIdentifier {
+    width: fit-content !important;
+}
+
+.executedTrade {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border:1px solid #4F4F4F;
+    border-radius: 8px;
+    padding:5px;
+}
+
+#recentTradesHolder {
+    max-height: 285px;
+    overflow-y: scroll;
+    
+}
+.contractAssetLogo {
+    height: 24px !important;
+    width: 24px !important;
+    transform: rotate(-15deg);
+}
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 4px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333333;
+    margin-bottom: 15px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4F4F4F;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

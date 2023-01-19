@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 79" width="79" height="79">
+	<title>footer-logo-svg</title>
+	<defs>
+		<image  width="79" height="79" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAABPAQMAAACQ+grFAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAABFJREFUeJxjYBgFo2AU0BQAAANlAAGxp26+AAAAAElFTkSuQmCC"/>
+		<image  width="56" height="55" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA3CAMAAABuDnn5AAAAAXNSR0IB2cksfwAAAEtQTFRF4v9v4v9v4v9v4v9vAAAA4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9v4v9vbBr0PQAAABl0Uk5TBm9/EAAgUGAY/3DAMLCAQO/frxLw4F+/kGiAY/IAAAFASURBVHic5ZZ9c4MgDMahBK20gk5t9/0/6UgyKFjmWddbX5a/nkt47iSJPxVC7nxIBaBR7CoAqElpAEVCQiHEvqEwAAdWAEcWLYBl5RaMNjE6Fod3M97eHFFbHwbHgcLiIUpZHIdBURfHUUquie3GfYe36Fy4UO8fsA/XrrjoH7ql1EdqXNfVJhT/lXEYMTHGrvrjaopdpeIUu9reY47bjXWOjhOk6JAh5SjlQlGqUnNKbwddtuli5+zNXX0T48/NGRMjmBwdyIkCOlzOFaMesDnDDB3na3T0KTo0FbvqOcbxrMY5OqZrdIwpOjQXqwcsgDhFdMiMDjk6jhEdwbjywxrRMTe+wifgnsZFdFzGsYgOEr7jCTp+vQCbjcOZApechKeD4hQuOStdMr7e3+MfGr/R4X/+P+lQjg7el1JXvwCfPFcbcGr1ygAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0"/>
+	<use id="Background" href="#img2" x="14" y="12"/>
+</svg>

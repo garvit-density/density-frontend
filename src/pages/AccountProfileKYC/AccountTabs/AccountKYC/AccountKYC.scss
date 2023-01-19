@@ -1,0 +1,34 @@
+@import "../../../../assets/styles/colors.scss";
+@import "../../../../assets/styles/mixins.scss";
+
+.accountkyc{
+    .accountkycInner {
+      max-width: 548px;
+      width: 95%;
+      padding: 64px;
+      border-radius: 12px;
+      margin: 0 auto;
+      border: 1px solid $primary-border-grey;
+      .accountkycTitle {
+        color: $color-primary;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .authMessage{
+        @include FontStyle(14, 18, 500);
+      }
+      .texGray{
+          margin-bottom: 45px;
+      }
+    }
+    .LoginBtn {
+      width: 100%;
+      padding: 13.5px;
+      border: 1px solid $borderColor;
+      border-radius: 5px;
+      @include FontStyle(14, 18, 700);
+      img {
+        margin-right: 10px;
+      }
+    }
+}

@@ -1,0 +1,105 @@
+@import "./mixins.scss";
+@import "../styles/colors.scss";
+
+.pointer{cursor: pointer;}
+.link{
+    @include FontStyle(12, 16, 600);
+    color: $color-link;
+}
+
+// Flex css
+.centre-align { @include centre-align; }
+.between-align { @include between-align; }
+
+// Text Colors
+
+.primaryLink { color: $color-link; }
+.textSecondary{ color: $textSecondary; }
+.texGray { color: $color-gray; }
+.textPrimary {
+    color: $color-primary;
+    svg * {
+        color: $color-primary;
+    }
+}
+.textverified{ color:$color-link; cursor: pointer; }
+.success{ color:$color-success; }
+.error{ color:$color-error; }
+.textGray { color: $primary-border-grey; }
+
+.textSmall { @include FontStyle(12, 16, 600); }
+
+// Align Text
+.textCenter { text-align: center; }
+.textRight { text-align: right; }
+
+// Buttons css
+// button {
+//     background: none;
+//     border: none;
+//     border-radius: none;
+//     cursor: pointer;
+// }
+.buttonCommon{
+    border-radius: 6px;
+    padding: 13px;
+    display: block;
+    width: 100%;
+    @include FontStyle(18,22,700);
+    transition: 0.3s ease-in;
+    text-align: center;
+    @include mediaQuery(767px){
+        padding: 10px;
+        @include FontStyle(14,14,700);
+    }
+    &.backround{
+        background: "#FCFCFC";
+        color: "#000000";
+        &:hover{
+          background: "#FCFCFC";
+          color: "#000000";
+        }
+    }
+    &.errorBtn{
+        border: 2px solid $color-error;
+        color: $color-error;
+        &:hover{
+            background: $color-primary;
+            color: $primary-background;
+            border: 2px solid $color-primary;
+        }
+    }
+}
+
+
+.forgotNoUser{
+  margin-top: 60px;
+  @include mediaQuery(767px) {
+    margin-top: 20px;
+  }
+  .welcomeTitle{
+    margin-bottom: 30px;
+    @include mediaQuery(767px) {
+      margin-bottom: 15px;
+    }
+  }
+  .forgotNoUserInner {
+    max-width: 548px;
+    width: 95%;
+    padding: 64px;
+    border-radius: 12px;
+    margin: 0 auto;
+    border: 1px solid $primary-border-grey;
+    .loginTitle {
+      color: $color-primary;
+      text-align: center;
+      margin-bottom: 25px;
+      @include mediaQuery(767px) {
+        margin-bottom: 15px;
+      }
+    }
+    @include mediaQuery(767px) {
+      padding: 20px;
+    }
+  }
+}

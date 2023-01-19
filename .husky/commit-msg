@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+message="$(cat $1)"
+requiredPattern="^(add|cut|fix|bump|make|start|stop|refactor|reformat|optimise|document|merge) .*$"
+
+if ! [[ $message =~ $requiredPattern ]];
+then
+  echo "🚨 Wrong commit message! 😕.Please Specify your commit type."
+  exit 1
+fi

@@ -1,0 +1,94 @@
+#tablist {
+  border: none !important;
+}
+#tablist .MuiButtonBase-root {
+  background-color: #2c2c34;
+  color: #adadad;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: "Overpass";
+  padding-top: 0px;
+}
+#tablist .MuiTabs-scroller {
+  padding: 0px;
+  /* margin-top: 10px; */
+  height: 40px;
+  /* margin-bottom: 10px !important; */
+}
+#tradesContainer,
+#table_orderbook {
+  max-height: 758px;
+}
+#tradesContainer {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+#tradesContainer::-webkit-scrollbar,
+#table_orderbook::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+#tablist .MuiTabs-flexContainer {
+  font-size: 13px;
+  white-space: nowrap;
+  font-family: "Overpass";
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  padding-bottom: 25px;
+}
+#tablist .Mui-selected {
+  background-color: #666673;
+  font-family: "Overpass";
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  margin: 5px;
+}
+#div {
+  background: rgba(79, 79, 79, 0.85);
+}
+#select {
+  background: red;
+  background-color: #191919;
+  color: white;
+  padding: 6px 6px;
+  border: 1px solid #4f4f4f;
+  border-radius: 8px;
+  height: 28px;
+}
+#box .MuiTabPanel-root {
+  padding: 5px;
+}
+#box .MuiTableCell-head {
+  /* padding: 0.5px; */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+#box .MuiTableCell-body {
+  padding: 4px 0px;
+  text-align: left;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333333;
+  margin-bottom: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4f4f4f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

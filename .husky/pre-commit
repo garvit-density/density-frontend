@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+. "$(dirname -- "$0")/_/husky.sh"
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+valid_branch_regex="^(feature|bugfix|improvement|refractor|library|prerelease|release|hotfix|test)\/[A_Za-z0-9._-]+$"
+
+message="Branch names in this project must adhere to this contract: $valid_branch_regex. Your commit will be rejected. Rename your branch to a valid name and push again."
+
+
+if [ "$branch" = "code_integration" ]; then
+  echo "commits directly to master branch are restricted"
+  exit 1
+fi
+if [[ ! $branch =~ $valid_branch_regex ]]
+then
+    echo "$message"
+    exit 1
+fi
+
+exit 0

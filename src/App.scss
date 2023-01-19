@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+  overflow: auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+// .MuiTypography-root-MuiDayPicker-weekDayLabel{
+//   color: #ffff !important;
+// }
+.css-ea04id-MuiTypography-root-MuiDayPicker-weekDayLabel {
+  color: #ffff !important;
+}
+.css-5uq11g-MuiStepLabel-labelContainer {
+  width: 100%;
+  color: gray;
+}
+.css-1l1favz-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #29b57e;
+}
+.css-1l1favz-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #29b57e;
+}
+.css-xaavqt-MuiStepIcon-text {
+  fill: white;
+}
